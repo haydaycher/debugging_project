@@ -25,7 +25,7 @@
     ]
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "browserslist": {
     "production": [
@@ -39,8 +39,8 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^5.1.4",
-    "vite": "^7.3.1"
+  "dependencies": {
+    "vite": "^5.x.x",
+    "@vitejs/plugin-react": "^4.x.x"
   }
 }
